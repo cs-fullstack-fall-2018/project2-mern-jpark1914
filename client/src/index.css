@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /*background: lightgray;*/
+}
+footer{
+  background-color: #a9a9a9;
+  margin-top: 1em;
+  padding: .5em 0em;
+}
+.header{
+  color: #1A1110 ;
+  background: url(./images/jens-johnsson-685540-unsplash.jpg) fixed top;
+  background-color: #fefefe;
+  padding: 3em;
+  margin-bottom: 1em;
+  box-shadow: 2px 2px 2px;
+
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left{
+  float: left;
+  width: 55%;
+  padding-left: 1em;
+  margin-left: 1em;
+  margin-right:3px;
+}
+.right{
+  float: right;
+  width: 42%;
+  margin-left: 3px;
+}
+.row:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
